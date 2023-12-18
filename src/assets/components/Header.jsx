@@ -21,7 +21,7 @@ export default function Header() {
 
     return(
         <div className="header">
-            <a href="#"><img src="./public/img/website-icon.svg" alt="Website Icon" /></a>
+            <a href="#"><img src="/img/website-icon.svg" alt="Website Icon" /></a>
             <div className="navBars">
                 <nav style={{display: burgerMenu  ? 'block' : 'none'}}>
                     <NavLink to="/">

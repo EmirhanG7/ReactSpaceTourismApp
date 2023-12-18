@@ -17,7 +17,7 @@ a {text-decoration: none;}
 .burgerMenu{display: none;}
 
 .homePage {
-  background-image: url("./public/img/homepage-bg.jpg");
+  background-image: url("/img/homepage-bg.jpg");
   
   background-repeat: round;
 }
@@ -281,7 +281,7 @@ a {text-decoration: none;}
 }
 
 .crewPage {
-  background-image: url("./public/img/crewpage-bg.png");
+  background-image: url("/img/crewpage-bg.png");
   background-repeat: round;
 }
 
@@ -399,7 +399,7 @@ a {text-decoration: none;}
 }
 
 .technologyPage {
-  background-image: url('/public/img/technology-bg.jpg');
+  background-image: url('/img/technology-bg.jpg');
   background-repeat: round;
 }
 
