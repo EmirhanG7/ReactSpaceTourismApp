@@ -6,24 +6,24 @@ export default function Header() {
 
 
     function handleBurgerMenu() {
-        const burgerMenu = document.querySelector('.burgerMenu')
-        const burgerClose = document.querySelector('.burgerClose')
 
-        burgerMenu.classList.toggle('show')
+            const burgerMenu = document.querySelector('.burgerMenu')
 
-        if (burgerMenu.classList.contains('show')) {
-            setBurgerMenu(true)
-        }
-        else {
-            setBurgerMenu(false)
-        }
+            burgerMenu.classList.toggle('show')
+
+            if (burgerMenu.classList.contains('show')) {
+                setBurgerMenu(true)
+            }
+            else {
+                setBurgerMenu(false)
+            }  
     }
 
     return(
         <div className="header">
             <a href="#"><img src="./public/img/website-icon.svg" alt="Website Icon" /></a>
             <div className="navBars">
-                <nav style={{display: burgerMenu ? 'block' : 'none'}}>
+                <nav style={{display: burgerMenu  ? 'block' : 'none'}}>
                     <NavLink to="/">
                         <div className="navBar">
                             <span>

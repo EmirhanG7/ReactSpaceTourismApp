@@ -1309,3 +1309,15 @@ a {text-decoration: none;}
 }
 
 /* Mobile End  */
+
+
+@media (width > 400px) {
+  .burgerMenu{display: none;}
+  .navBars{
+    & nav {
+
+      display: flex !important;
+    }
+  }
+  
+}
